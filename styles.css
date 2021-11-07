@@ -1,0 +1,22 @@
+body{
+background-color:#2B3445;
+}
+
+img{
+width: 200px;
+}
+.main-menu img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.main-menu img:hover {
+    transform: scale(1.08);
+}
+
+@media screen and (max-width:767px){
+    #main-pic{
+        position: relative !important;
+   width: 145px !important;
+
+    }
+}

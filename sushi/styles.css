@@ -1,0 +1,204 @@
+
+
+body{
+    margin: 0;
+    font-family: "Rubik",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4b566b;
+    text-align: left;
+    
+    }
+    
+    
+    #section-one {
+        scroll-margin-top: 50px !important;
+      }
+    
+      #section-two {
+        scroll-margin-top: 50px !important;
+      }
+    
+      #section-three {
+        scroll-margin-top: 80px !important;
+      }
+    
+    #logo-1{
+    
+    font-weight: 900 !important
+    }
+    
+    #pointer{
+        cursor: pointer !important;
+    }
+    
+    
+    #logo-1{
+    color: #cc3333;
+    }
+    
+    #pointer{
+    cursor: pointer;
+    text-decoration: none;
+    
+    }
+    
+    
+    .dropdown-item:hover{
+        color:#cc3333;
+    }
+    
+    .language{
+        width:25px;
+    }
+    
+    .card:hover{
+     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    }
+    
+    .exp a{
+    color: gray;
+    }
+    .exp a:hover{
+        color:#cc3333;
+    }
+    
+    
+    
+    #herewego{
+    position: relative;
+    background-image: url(../resources/sushimova-background.jpg) !important;
+    background-size: cover;
+    height: 252px;
+    width: 100%;
+    
+    }
+    
+    
+    
+    
+    .second-nav{
+        position: relative !important;
+        top: -50px;
+    }
+    
+    
+       
+    .custom-control-input:checked ~ .custom-option-label {
+        border-color: #cc3333;
+        color: #cc3333;
+    }
+    
+    
+    
+    .custom-control-justified .custom-option-label {
+        width: 100%;
+    }
+    
+    .custom-option-label {
+        position: relative;
+        min-width: 2rem;
+        height: 2rem;
+        margin-bottom: 0;
+        padding-right: .375rem;
+        padding-left: .375rem;
+        transition: color 0.2s ease-in-out,border-color 0.2s ease-in-out;
+        border: 1px solid #e3e9ef;
+        border-radius: .1875rem;
+        color: #4b566b;
+        font-size: .90rem;
+        font-weight: normal;
+        text-align: center;
+        line-height: 1.75rem;
+        cursor: pointer;
+    }
+    
+    
+    input[type="radio"]{
+        visibility:hidden;
+    }
+    
+    
+    
+    
+    @media screen and (max-width:767px){
+        #remove{
+            display:none !important;
+        }
+    }
+    
+    @media screen and (min-width:767px){
+    #navbarSupport{
+        display:none !important;
+    }
+    
+    }
+    
+    @media screen and (max-width:1200px){
+        #mainexp{
+            position: relative !important;
+            bottom: 50px !important;
+        }
+    }
+    
+    @media screen and (max-width:767px){
+        #yeboy{
+            width: 60px !important;
+        }
+    }
+    
+    @media screen and (max-width:767px){
+        #herewego{
+            position: relative !important;
+          width: 800px !important;  
+          height: 215px!important;
+    
+        }
+    }
+    
+    
+    @media screen and (max-width:767px){
+        #herewego{
+            position: relative !important;
+          width: 100% !important;  
+          height: 215px!important;
+    
+        }
+    }
+    
+    @media screen and (min-width:768px){
+        .custom-option-label{
+            
+            font-size: .40rem;
+    
+        }
+    }
+    
+    @media screen and (min-width:576px){
+        .custom-option-label{
+            
+            font-size: .80rem;
+    
+        }
+    }
+    
+    
+    @media screen and (min-width:768px){
+        .custom-option-label{
+            
+            font-size: .67rem;
+    
+        }
+    }
+    
+    
+    @media screen and (min-width:992px){
+        .custom-option-label{
+            
+            font-size: .85rem;
+    
+        }
+    }
+    
+    
